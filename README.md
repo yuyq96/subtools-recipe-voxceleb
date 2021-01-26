@@ -4,9 +4,9 @@
 
 ⚠️ The training settings are different from those in the paper:
 
-- ~~batch size (128)~~
-- learning rate scheduler
-- ~~weight decay (5e-4)~~
+- [ ] LR scheduler
+- [x] ~~Batch size (128)~~
+- [x] ~~Weight decay (5e-4)~~
 
 |  | Recipe | Paper |
 | :- | :-: | :-: |
@@ -15,8 +15,10 @@
 | # Feature | 81 | 23 |
 | # Frame | 200 | 200-400 |
 | Nonlinearity | ReLU | PReLU |
+| Momentum (last BN) | 0.5 | 0.1 |
 | Margin | 0.25 | 0.4 |
 | Scaling factor | 32 | 64 |
+| Momentum (SGD) | 0.9 | 0.95 |
 
 ## Usage
 
