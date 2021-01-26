@@ -14,6 +14,9 @@
 | VAD | ✔️ | ✖️ |
 | # Feature | 81 | 23 |
 | # Frame | 200 | 200-400 |
+| Nonlinearity | ReLU | PReLU |
+| Margin | 0.25 | 0.4 |
+| Scaling factor | 32 | 64 |
 
 ## Usage
 
