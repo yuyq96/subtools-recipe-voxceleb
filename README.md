@@ -1,4 +1,4 @@
-# D-TDNN recipe for ASV-Subtools
+# ASV-Subtools recipe of D-TDNN
 
 ⚠️ This project is currently under development.
 
